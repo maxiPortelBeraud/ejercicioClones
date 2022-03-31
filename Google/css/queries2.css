@@ -1,0 +1,16 @@
+@media (max-width: 745px)
+{
+    body{
+        font-size: 12px;
+    }
+    .imgGoogle{
+        height: 80px;
+    }
+      .pais{
+        font-size: smaller;
+    }
+    .listasDesFooter li > a{
+        font-size: 7px;
+        padding: 3px 3px;
+    }
+}

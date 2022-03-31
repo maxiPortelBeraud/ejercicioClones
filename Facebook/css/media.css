@@ -1,0 +1,13 @@
+@media (max-width: 670px){
+    .contenedorCajas{
+        flex-direction: column;
+    }
+    .contenedorMain{
+        align-items: flex-start;
+    }
+    .box1 {
+        margin: 10px;
+        text-align: center;
+        align-items: center;
+}
+}

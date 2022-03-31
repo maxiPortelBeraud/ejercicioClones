@@ -1,0 +1,142 @@
+body{
+    margin: 0;
+    background-color: rgba(152, 169, 197, 0.2);
+    font-family: Helvetica, Arial, sans-serif;
+}
+.contenedorMain{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedorCajas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 40px;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 30px;
+    margin-bottom: 87px;
+}
+.parrafo{
+    max-width: 450px;
+    margin: 10px;
+    margin-left: 30px;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: normal;
+}
+.box2{
+    flex-basis: 396px;  
+    padding: 13px;
+
+}
+.cajaForm{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: -1px 0px 10px 3px rgba(0,0,0,0.10);
+    -webkit-box-shadow: -1px 0px 10px 3px rgba(0,0,0,0.10);
+    -moz-box-shadow: -1px 0px 10px 3px rgba(0,0,0,0.10);
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.inputs{
+    border: 1px solid rgba(128, 128, 128, 0.25);
+    padding: 15px 10px;
+    margin: 7px;
+    border-radius: 8px;
+    font-size: 17px;
+}
+.inputs:focus{
+    color: #1877f2;
+    outline: none;
+    border: 1px solid #1877f2;
+}
+/* .inputs:active{
+    border: 1px solid rgba(24, 119, 242, 0.25);
+} */
+.inputBoton{
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 15px 10px;
+    margin: 7px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.inputBoton:hover{
+    background-color: rgb(21, 100, 203);
+}
+.inputBoton:active{
+    background-color: rgb(21, 100, 203);
+}
+.inputBoton:active:hover{
+    background-color: rgb(19, 78, 155);
+}
+.recuperarPass{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+    margin: 10px;
+}
+.recuperarPass:hover{
+    text-decoration: underline;
+}
+.botonNuevaCuenta{
+    text-align: center;
+
+}
+
+.botonNuevaCuenta > input{
+    background-color: #42b72a;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 15px 10px;
+    margin: 7px;
+    border-radius: 8px;
+    font-size: 17px;
+}
+.botonNuevaCuenta > input:hover{
+    background-color: #3dab27;
+}
+.botonNuevaCuenta > input:active{
+    background-color: #379b23;
+}
+.linea{
+    align-items: center;
+    border-bottom: 1px solid #dadde1;
+    display: flex;
+    margin: 20px 16px;
+    text-align: center;
+}
+h3{
+    font-size: 14px;
+    font-weight: normal;
+}
+h3 > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+h3 > a:hover{
+    text-decoration: underline;
+}
+

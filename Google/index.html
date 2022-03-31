@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" media="(max-width: 934px)" href="./css/queries.css">
+    <link rel="stylesheet" media="(max-width: 745px)" href="./css/queries2.css">
+    <link rel="stylesheet" media="(max-width: 430px)" href="./css/queries3.css">
+    <title>Clon Google</title>
+</head>
+<body>
+    <header>
+        <ul class="cabecero"> <!-- Head preguntar por colores de SVG -->
+            <li class="cabeceroLi"><a href="http://www.gmail.com" class="linkheader">Gmail</a></li>
+            <li class="cabeceroLi"><a href="https://www.google.com.ar/imghp?hl=es&ogbl" class="linkheader">Imagenes</a></li>
+            <li class="cabeceroli">
+                <iframe src="./img/menu_puntos.svg" frameborder="0" class="puntos"></iframe>
+            </li>
+            
+            <li class="cabeceroLi"><div class="iniciosesion">Iniciar sesión</div></li>
+        </ul>
+    </header>
+
+    <main class="containerprincipal">
+        <article class="principal">
+            <div>                       <!-- imagen Google -->
+                <img class="imgGoogle" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
+            </div>
+
+            <div class="containerbuscador">             <!-- Buscador -->
+                <div class="buscador"> 
+                    <!-- <span class=""><iframe src="img/search_icon.svg"  frameborder="0"></iframe></span> --->
+
+                    <svg class="iconoslupa" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                    width="30" height="30"
+                    viewBox="0 0 30 30"
+                    style=" fill:#bebdbd;" class="lupa">
+                    <path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
+                    <!-- Logo Lupa -->
+
+                    <input class="input" type="text">
+                    <img src="img/google_mic.svg" class="iconosBusquedaVoz"></img> <!-- Logo microfono -->
+                </div>
+            </div>
+
+            <div class="cajaBotones">       <!-- Botones Busqueda/Suerte -->
+                <span> <a href=""><button class="botones">Buscar en google</button></a> </span>
+                <span> <a href="https://www.google.com/doodles"><button class="botones">Me siento con suerte</button></a> </span>
+            </div>
+            
+        </article>
+    </main>
+
+    <footer>  <!-- En forma de columna -->
+        <div class="pais">Argentina</div>  <!-- En bloque -->
+
+        <div class="listasDesFooter">  <!-- En row espaciadio entre ULs -->
+            <ul>
+                <li><a href="https://about.google/?utm_source=google-AR&utm_medium=referral&utm_campaign=hp-footer&fg=1">Sobre Google</a></li>
+                <li><a href="https://ads.google.com/intl/es_ar/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicidad</a></li>
+                <li><a href="https://smallbusiness.withgoogle.com/intl/es-419_ar/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google&utm_medium=ep&utm_campaign=google_hpbfooter&utm_content=google_hpbfooter&gmbsrc=ww-ww-et-gs-z-gmb-s-z-u~sb-g4sb_srvcs-u&c=AR#!/">Negocios</a></li>
+                <li><a href="https://www.google.com/search/howsearchworks/?fg=1">Cómo funciona la Búsqueda</a></li>
+            </ul>
+
+            <ul>
+                <li><a href="https://policies.google.com/privacy?hl=es-AR&fg=1">Privacidad</a></li>
+                <li><a href="https://policies.google.com/terms?hl=es-AR&fg=1">Condiciones</a></li>
+                <li><a href="https://ads.google.com/intl/es_ar/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Preferencias</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,24 @@
+@media (max-width: 934px) and (orientation: landscape)
+{ 
+    .listasDesFooter li > a{
+    font-size: 10px;
+    padding: 4px 4px;
+}
+}
+
+@media (max-width: 745px)
+{
+    body{
+        font-size: 12px;
+    }
+    .imgGoogle{
+        height: 80px;
+    }
+      .pais{
+        font-size: smaller;
+    }
+    .listasDesFooter li > a{
+        font-size: 7px;
+        padding: 3px 3px;
+    }
+}
